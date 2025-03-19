@@ -21,7 +21,7 @@ const config: PlaywrightTestConfig = {
     actionTimeout: 0,
     trace: "on",
     headless: false,
-    viewport: { width: 720, height: 720 },
+    viewport: { width: 1280, height: 1024 },
     ignoreHTTPSErrors: true,
   },
   projects: [
