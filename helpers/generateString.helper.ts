@@ -10,7 +10,7 @@ export const generateRandomLogin = () => {
   return retVal;
 };
 
-export const userCheckoutDate = {
+export const userCheckoutData = {
   firstName: getFakerData.firstName(),
   lastName: getFakerData.lastName(),
   postalCode: getFakerData.postalCode(),
