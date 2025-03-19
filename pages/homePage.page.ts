@@ -34,4 +34,10 @@ export class HomePage extends Common {
     await this.getPasswordInput().fill(password);
     await this.getLoginBtn().click();
   }
+
+  async doLoginDTO(userDTO: IUserDTO) {
+    await this.getUsernameInput().fill(userDTO.username);
+    await this.getPasswordInput().fill(userDTO.password);
+    await this.getLoginBtn().click();
+  }
 }
