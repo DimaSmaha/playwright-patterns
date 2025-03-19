@@ -3,8 +3,8 @@ import { expect, Locator, Page } from "@playwright/test";
 
 export class CheckoutPage extends TopHeader {
   firstNameInput = '[data-test="firstName"]';
-  lastNameInput = '[data-test="lastName"]';
-  postalCode = '[data-test="postalCode"]';
+  lastNameInput = "lastName";
+  postalCode = "postalCode";
 
   openCheckout = () => this.goto("/checkout-step-one.html");
   getFirstNameInput = () => this.get(this.firstNameInput);
