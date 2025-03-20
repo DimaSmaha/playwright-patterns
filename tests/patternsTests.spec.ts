@@ -18,7 +18,7 @@ test.describe("Patterns tests", () => {
     await page.waitForLoadState();
   });
 
-  test("Should sing in to created account", async () => {
+  test("Should sign in to created account", async () => {
     await facade.loginAndCheckItemIsVisible(userDTO);
   });
 

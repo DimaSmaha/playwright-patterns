@@ -9,7 +9,7 @@ test.describe("Login page tests", () => {
     await page.waitForLoadState();
   });
 
-  test("Should sing in to created account", async ({ page }) => {
+  test("Should sign in to created account", async ({ page }) => {
     expect(homePage.getLoginBtn()).toBeVisible();
     await homePage.fillUsername("standard_user");
     await homePage.fillPassword("secret_sauce");
